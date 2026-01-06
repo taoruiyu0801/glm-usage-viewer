@@ -47,14 +47,14 @@
 
 ### 方式一：下载 EXE（Windows 推荐）
 
-1. 下载 [releases](https://github.com/yourusername/glm-usage-viewer/releases) 中的 `GLM配额查询.exe`
+1. 下载 [releases](https://github.com/taoruiyu0801/glm-usage-viewer/releases) 中的 `GLM配额查询.exe`
 2. 直接双击运行
 
 ### 方式二：从源码运行
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/glm-usage-viewer.git
+git clone https://github.com/taoruiyu0801/glm-usage-viewer.git
 cd glm-usage-viewer
 
 # 安装依赖
@@ -168,12 +168,12 @@ pyinstaller --onefile --name "GLM配额查询" src/cli.py
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/glm-usage-viewer&type=Date)](https://star-history.com/#yourusername/glm-usage-viewer&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=taoruiyu0801/glm-usage-viewer&type=Date)](https://star-history.com/#taoruiyu0801/glm-usage-viewer&Date)
 
 ---
 
 <div align="center">
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [taoruiyu0801](https://github.com/taoruiyu0801)
 
 </div>
