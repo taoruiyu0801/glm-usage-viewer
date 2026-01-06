@@ -6,7 +6,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -36,6 +35,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project specific
-*.exe
+# PyInstaller
 *.spec
+build/
