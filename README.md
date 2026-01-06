@@ -25,9 +25,9 @@
 
 ### Web 界面
 
-![Web Dashboard](screenshot.png)
+<img src="screenshot.png" width="800" alt="Web Dashboard">
 
-### 终端版本
+### 命令行版本
 
 ```
 ┌──────────────────────────┐
