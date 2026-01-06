@@ -61,6 +61,35 @@ cd glm-usage-viewer
 pip install -r requirements.txt
 ```
 
+## 使用前准备
+
+### 获取 API Token
+
+1. 访问 [智谱AI开放平台](https://open.bigmodel.cn/) 注册账号
+2. 获取 API Key
+3. 配置到 Claude Code 或创建配置文件
+
+### 配置方式
+
+**方式一：使用 Claude Code（推荐）**
+
+如果你已经在使用 Claude Code，API 配置会自动读取。
+
+**方式二：手动配置**
+
+创建配置文件 `~/.claude/settings.json`（Windows: `%USERPROFILE%\.claude\settings.json`）：
+
+```json
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "你的智谱API_Key",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic"
+  }
+}
+```
+
+> ⚠️ **注意**：请勿将 API Token 分享给他人或提交到 GitHub
+
 ## 使用方法
 
 ### Web 界面
